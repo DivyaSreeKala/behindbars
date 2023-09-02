@@ -1,0 +1,20 @@
+.outer{
+   /*background-color: aliceblue;*/
+    /*center horizontally*/
+    margin: 0 auto;
+    width:80vw;
+
+    height: auto;/*this adjusted div height*/
+    max-height: 1000px;
+    /*center vertically!!!*/
+    position:absolute;
+    top:14%;
+    left:10%;
+    
+    padding-left: 0.5rem;
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+} 
+

@@ -1,0 +1,21 @@
+.logo-title{
+  /*background-color:#7d9480;*/
+  /*#2c2c2c*/
+  padding:15px ;
+}
+.lg{
+   
+    
+    height:45px;
+    max-width: 45px;
+    border-radius: 360rem;
+    
+}
+.title{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1rem;
+    color: white;
+    margin-top: 0 auto;   
+    border-radius: 10px;
+}

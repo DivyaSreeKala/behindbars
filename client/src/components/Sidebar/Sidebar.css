@@ -1,0 +1,124 @@
+
+.sidebar{
+    margin-top: 0px;
+
+    width: 255px;
+    min-width: 200px;
+    
+    min-height: 100dvh;/*no need*/
+    max-height: 1000vmax;/*no need  #2f4050*/
+    height: 100%;
+    overflow:hidden;
+    position: calc(100%);
+
+    background-color:#111111;/* #15171c*/
+    box-shadow: 0 5px 10px #111111;
+    border-radius: 1rem;
+    
+}   
+
+.username{
+    color:#b382e4;
+    padding: 10px;
+   
+}
+.sidebarlist{
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+    
+
+}
+
+
+.row{
+    width: 100%;
+    height:60px;
+    
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+    text-decoration: none;
+    
+}
+
+.sidebarlist .row:hover{
+    cursor: pointer;
+    background-color: #293846;
+    border-left: 4px solid rebeccapurple ;
+}
+
+.sidebarlist .row1:hover{
+    cursor: pointer;
+    background-color: #1a1f24;/* #1a1f24*/
+    border-left: 4px solid rebeccapurple ;
+}
+
+.sidebarlist #active{
+    background-color: #293846;
+    border-left: 4px solid rebeccapurple ;
+}
+
+#title{
+    /*to align sidebar contents on center*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+}
+
+.row1{
+    width: 100%;
+    height:80px;
+    
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    text-decoration: none;
+    
+
+}
+
+.submenu{
+    
+    color: white;
+    background-color: #222222;/* #21272c*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items:center;
+
+    padding-left: 68px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.logout{
+    width:100%;
+    height: 30px;
+    
+    border: none;
+    background-color: #996133;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+   
+}
+.submenu:hover{
+    background-color: #a36dd8;/*#293846;*/
+}
+
+.openclose{
+    padding: 10px;
+}

@@ -1,0 +1,48 @@
+  /*the styling of buttons not completed*/
+ 
+  .buttons{
+    
+    height: 3rem;
+    width: 15rem;
+    margin: 1rem;
+    
+    
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+
+    transition: all .5s ease;
+    border-radius:1rem;
+    border: 3px solid white;
+    
+    background-color: #fff;
+    color: #001F3F;
+    font-weight:bolder ;
+    font-size: larger;
+
+    cursor: pointer;
+}
+.buttons:hover {
+  color:white;
+  background-color:#001F3F;
+  
+}
+
+.container{
+    
+    /*container div is not aligned with outer div class
+    background-color: red;
+    border-radius: 1rem;
+    */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    margin-top: 2rem ;
+    margin-bottom: 1rem;
+    margin-left: 8rem;
+    margin-right: 2rem;
+  }

@@ -1,0 +1,162 @@
+.addingothers{
+    display: flex;
+    /*background-color:#d6afd6;*/
+    align-items: center;
+    justify-content: center;
+
+    height:calc(100%);
+    min-height: 100vmin;
+    max-height: 400vmax;
+    
+    width: 100%;
+    min-width: 100vmin;
+    max-width: 100vmax;
+    
+    /*background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;*/
+    /*fixed size of background on scroll*/
+    overflow: hidden;
+    scale: initial;
+}
+
+.boxinside{
+    position: relative;
+    max-width: 50rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    padding: 2rem;
+    margin: 0 1rem;
+
+    background-color: #eeeeee;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+
+    
+}
+
+.boxinside .title1{
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color:#333;
+
+}
+
+.boxinside .title1::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: #ac72ac;
+
+}
+
+.boxinside .formforadd{
+    position: relative;
+    margin-top: 1rem;
+    min-height: 30rem;
+
+    /*background-color: #f2f2f2;*/
+}
+
+.innerbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+   
+}
+
+#add{
+
+    width: 8rem;
+
+
+}
+
+/*not needed*/
+
+
+
+.addingotherss{
+    display: flex;
+    background-color:#d6afd6;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vmin;
+    max-height: 100vmax;
+    
+    width: 100%;
+    min-width: 100vmin;
+    max-width: 100vmax;
+    
+    /*background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;*/
+    /*fixed size of background on scroll*/
+    overflow: hidden;
+    scale: initial;
+}
+
+.boxinsidee{
+    position: relative;
+    max-width: 50rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    padding: 2rem;
+    margin: 0 1rem;
+
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+
+    
+}
+
+.boxinsidee .title1{
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color:#333;
+
+}
+
+.boxinsidee .title1::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: #ac72ac;
+
+}
+
+.boxinsidee .formforadd{
+    position: relative;
+    margin-top: 1rem;
+    min-height: 30rem;
+
+    /*background-color: #f2f2f2;*/
+}
+
+.innerboxx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#addd{
+
+    width: 8rem;
+
+
+}
